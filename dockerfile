@@ -1,5 +1,6 @@
 FROM node:20-alpine
 
-ADD app.js ./tree/app.js
+WORKDIR /tree
+ADD . .
 
 CMD [ "node","/tree/app.js" ]
