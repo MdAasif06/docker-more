@@ -1,6 +1,6 @@
 FROM node:20-alpine
 
-WORKDIR /tree
+WORKDIR /app
 ADD . .
 
 ENTRYPOINT [ "node" ]
